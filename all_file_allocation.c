@@ -16,8 +16,8 @@ void indexed();
 void main()
 {
 int choice;
-printf("\n1.Sequential Allocation\n2.Linked Allocation\n3.IndexedAllocation\n4.Exit\n");
-printf("Enter a choice : ");
+printf("\n 1.Sequential Allocation\n 2.Linked Allocation\n 3.IndexedAllocation\n 4.Exit\n");
+printf(" Enter a choice : ");
 scanf("%d", &choice);
 switch (choice)
 {
