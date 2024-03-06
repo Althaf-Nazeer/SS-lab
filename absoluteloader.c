@@ -10,9 +10,9 @@ void main()
   fp1=fopen("INPUT.dat","r");
   fp2=fopen("OUTPUT.dat","w");
   fscanf(fp1,"%s",input);
-  printf("\n\n\t\t\t\tABSOLUTE LOADER\n");
+  printf("\n\n\t\t\t\t ABSOLUTE LOADER\n");
   fprintf(fp2,"\n-------------------------------------------------------\n");
-  fprintf(fp2,"MEMORY ADDRESS\t\t\tCONTENTS");
+  fprintf(fp2," MEMORY ADDRESS\t\t\tCONTENTS");
   fprintf(fp2,"\n-------------------------------------------------------\n");
   while(strcmp(input,"E")!=0)
   {
