@@ -3,4 +3,3 @@ MUL AX
 MOV [4000], AX
 MOV [4002], DX
 
-
